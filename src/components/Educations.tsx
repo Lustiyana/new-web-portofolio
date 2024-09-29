@@ -2,12 +2,20 @@
 
 import React from "react";
 
-const EducationItem = ({ school, major, descriptions }) => (
+const EducationItem = ({
+  school,
+  major,
+  descriptions,
+}: {
+  school: string;
+  major: string;
+  descriptions: string[];
+}) => (
   <div className="flex flex-col gap-2 max-w-96">
     <p className="font-semibold text-lg">{school}</p>
     <p className="italic">{major}</p>
     <ul>
-      {descriptions.map((description, index) => (
+      {descriptions.map((description: string, index: number) => (
         <li key={index} className="list-disc ml-4 text-justify ">
           {description}
         </li>

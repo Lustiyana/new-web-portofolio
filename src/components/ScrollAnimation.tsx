@@ -5,12 +5,12 @@ import { useEffect, useRef, useState } from "react";
 
 const ScrollAnimation = () => {
   const [scrollX, setScrollX] = useState(0);
-  const sectionRef = useRef(null);
+  const sectionRef: any = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
       if (sectionRef.current) {
-        const sectionTop = sectionRef.current.getBoundingClientRect().top;
+        const sectionTop: any = sectionRef.current.getBoundingClientRect().top;
         const sectionHeight = sectionRef.current.offsetHeight;
         const scrollTop = window.scrollY;
         const scrollBottom = scrollTop + window.innerHeight;

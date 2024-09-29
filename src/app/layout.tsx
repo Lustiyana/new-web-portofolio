@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" content="width=1024">
       <ModalProvider>
         <body className={inter.className}>{children}</body>
       </ModalProvider>

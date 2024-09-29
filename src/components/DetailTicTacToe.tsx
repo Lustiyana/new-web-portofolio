@@ -14,9 +14,9 @@ const DetailTicTacToe = () => {
         on the grid while also trying to decipher the song titles represented by
         a series of emoticons. Perfect for team bonding and light-hearted
         competition, this game encourages creativity and collaboration among
-        colleagues. Whether you're on a break or looking to boost morale, Tic
-        Tac Toe with Emoji Song Guessing provides an entertaining way to unwind
-        and connect with your coworkers.
+        colleagues. Whether you&apos;re on a break or looking to boost morale,
+        Tic Tac Toe with Emoji Song Guessing provides an entertaining way to
+        unwind and connect with your coworkers.
       </p>
       <div>
         <p>Github Link</p>

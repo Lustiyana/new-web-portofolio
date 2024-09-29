@@ -74,8 +74,8 @@ const ProjectSection = ({ project }: { project: any }) => (
       {project.title}
     </h1>
     <div className="grid grid-cols-3 gap-4">
-      {project.items.map((item: any) => (
-        <Card item={item} />
+      {project.items.map((item: any, index: number) => (
+        <Card item={item} key={index} />
       ))}
     </div>
   </div>
@@ -86,8 +86,8 @@ const Projects = () => {
     AOS.init({ duration: 3000 });
   }, []);
 
-  return projects.map((project) => (
-    <ParallaxSection image={project.image}>
+  return projects.map((project, index) => (
+    <ParallaxSection image={project.image} key={index}>
       <section className="w-full flex flex-col gap-24">
         <ProjectSection project={project} />
       </section>

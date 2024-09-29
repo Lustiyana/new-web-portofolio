@@ -6,14 +6,14 @@ import ThreeScene from "./ThreeScene";
 const AboutUs = () => {
   return (
     <section>
-      <div>
+      {/* <div>
         <ul className="flex bg-black text-white gap-4 justify-end">
           <li>About</li>
           <li>Education</li>
           <li>Working Experience</li>
           <li>Projects</li>
         </ul>
-      </div>
+      </div> */}
       <div className="bg-black">
         <ThreeScene />
         <div className="absolute flex items-center top-0">
@@ -24,9 +24,15 @@ const AboutUs = () => {
         </div>
         <section className="min-h-screen bg-black flex flex-col justify-center">
           <div>
-            <h1 className="text-white text-[64px] font-bold text-end absolute">
-              A graduate from informatics engineering who have jgdagf auigf
-              sjgdj ahdaj hsakh fhajh sakjs akxk ahdka gfjshd kajk
+            <h1 className="text-white text-4xl font-bold text-end absolute">
+              A graduated from Informatics Engineering with with experience as
+              Full Stack Developer with extensive experience in the building web
+              application both of frontend (React.js, Next.js) and backend
+              (Node.js with Express, create API using Next.js, and PHP using
+              Codeigniter), I excel in designing and implementing robust,
+              scalable web applications from concept to deployment. I also have
+              knowledge about another language programing, such as Python and
+              Golang.
             </h1>
           </div>
         </section>

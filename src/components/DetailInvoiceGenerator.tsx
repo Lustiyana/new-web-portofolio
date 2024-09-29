@@ -12,6 +12,17 @@ const DetailInvoiceGenerator = () => {
         testing and bug-fixing phase to ensure optimal performance and user
         experience.
       </p>
+      <div>
+        <p>Github Link</p>
+        <a
+          href="https://github.com/Lustiyana/invoice-generator-flutter"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 underline"
+        >
+          https://github.com/Lustiyana/invoice-generator-flutter
+        </a>
+      </div>
     </LayoutDescription>
   );
 };
