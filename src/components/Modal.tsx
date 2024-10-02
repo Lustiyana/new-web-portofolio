@@ -16,7 +16,7 @@ const Modal = () => {
         >
           Close
         </button>
-        <div className="mt-4 max-h-[560px]">{modalContent}</div>
+        <div className="max-h-[560px]">{modalContent}</div>
       </div>
     </div>
   );

@@ -67,11 +67,11 @@ const Educations = () => {
           </div>
           <EducationItem
             descriptions={[
-              "Lulus dengan predikat Cumlaude dengan IPK 3.83",
-              "Anggota sekaligus bendaharan Robotika UIN Bandung",
-              "Pengurus himpunan mahasiswa jurusan selama 2 periode",
-              "Anggota bidang Communication and Partnership Google Developer Student Club",
-              "Ikut serta dalam program Bangkit Academy Learning Path Machine Learning",
+              "Graduated with Cum Laude honors with a GPA of 3.83",
+              "Member and treasurer of the Robotics Club at UIN Bandung",
+              "Executive board member of the student association for two terms",
+              "Member of the Communication and Partnership sector of the Google Developer Student Club",
+              "Participated in the Bangkit Academy Learning Path in Machine Learning",
             ]}
             school="UIN Sunan Gunung Djati"
             major="Informatics Engineering"

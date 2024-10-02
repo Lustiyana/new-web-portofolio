@@ -19,7 +19,7 @@ export default function ParallaxSection({
         height: "100vh",
       }}
     >
-      <div className="p-16 w-full">{children}</div>
+      <div className="px-16 w-full">{children}</div>
     </div>
   );
 }

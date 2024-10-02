@@ -12,6 +12,7 @@ import DetailTicTacToe from "./DetailTicTacToe";
 import DetailMRPLaw from "./DetailMRPLaw";
 import DetailStore from "./DetailStore";
 import DetailInvoiceGenerator from "./DetailInvoiceGenerator";
+import DetailQuiz from "./DetailQuiz";
 
 const projects = [
   {
@@ -33,6 +34,12 @@ const projects = [
         thumbnail: "/images/mrplaw.png",
         description: <DetailMRPLaw />,
       },
+    ],
+  },
+  {
+    title: "PORTOFOLIO",
+    image: "bg-laptop-2.jpg",
+    items: [
       {
         projectName: "Face Recognition",
         thumbnail: "/images/MTCNN.png",
@@ -42,6 +49,11 @@ const projects = [
         projectName: "Tic Tac Toe",
         thumbnail: "/images/tic-tac-toe.png",
         description: <DetailTicTacToe />,
+      },
+      {
+        projectName: "Quiz Web",
+        thumbnail: "/images/quiz.png",
+        description: <DetailQuiz />,
       },
     ],
   },
@@ -69,7 +81,7 @@ const projects = [
 ];
 
 const ProjectSection = ({ project }: { project: any }) => (
-  <div className="min-h-screen" data-aos="zoom-in">
+  <div className="min-h-screen flex flex-col justify-center">
     <h1 className="text-white font-bold text-4xl text-center mb-8">
       {project.title}
     </h1>
@@ -82,10 +94,6 @@ const ProjectSection = ({ project }: { project: any }) => (
 );
 
 const Projects = () => {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
-
   return projects.map((project, index) => (
     <ParallaxSection image={project.image} key={index}>
       <section className="w-full flex flex-col gap-24">

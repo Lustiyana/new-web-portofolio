@@ -24,7 +24,7 @@ const AboutUs = () => {
         </div>
         <section className="min-h-screen bg-black flex flex-col justify-center">
           <div>
-            <h1 className="text-white text-4xl font-bold text-end absolute">
+            <h1 className="text-white text-4xl font-bold text-end absolute px-4">
               A graduated from Informatics Engineering with with experience as
               Full Stack Developer with extensive experience in the building web
               application both of frontend (React.js, Next.js) and backend
