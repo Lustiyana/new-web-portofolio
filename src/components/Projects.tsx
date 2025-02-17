@@ -13,6 +13,7 @@ import DetailMRPLaw from "./DetailMRPLaw";
 import DetailStore from "./DetailStore";
 import DetailInvoiceGenerator from "./DetailInvoiceGenerator";
 import DetailQuiz from "./DetailQuiz";
+import DetailPertamina from "./DetailPertamina";
 
 const projects = [
   {
@@ -25,9 +26,9 @@ const projects = [
         description: <DetailPulsadong />,
       },
       {
-        projectName: "Flexbox Playground",
-        thumbnail: "/images/flexbox-playground.png",
-        description: <DetailFlexboxPlayground />,
+        projectName: "Pertamina",
+        thumbnail: "/images/pertamina.png",
+        description:<DetailPertamina/>,
       },
       {
         projectName: "MRPLaw",
@@ -46,9 +47,9 @@ const projects = [
         description: <DetailFaceRecognition />,
       },
       {
-        projectName: "Tic Tac Toe",
-        thumbnail: "/images/tic-tac-toe.png",
-        description: <DetailTicTacToe />,
+        projectName: "Flexbox Playground",
+        thumbnail: "/images/flexbox-playground.png",
+        description: <DetailFlexboxPlayground />,
       },
       {
         projectName: "Quiz Web",
@@ -58,7 +59,7 @@ const projects = [
     ],
   },
   {
-    title: "ONGOING PROJECT",
+    title: "Portofolio",
     image: "bg-code.jpg",
     items: [
       {
