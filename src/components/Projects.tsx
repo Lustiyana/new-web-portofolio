@@ -28,7 +28,7 @@ const projects = [
       {
         projectName: "Pertamina",
         thumbnail: "/images/pertamina.png",
-        description:<DetailPertamina/>,
+        description: <DetailPertamina />,
       },
       {
         projectName: "MRPLaw",
@@ -62,11 +62,6 @@ const projects = [
     title: "Portofolio",
     image: "bg-code.jpg",
     items: [
-      {
-        projectName: "Pertamina",
-        thumbnail: "/images/pertamina.png",
-        description: "",
-      },
       {
         projectName: "Online Store",
         thumbnail: "/images/mostore.png",
